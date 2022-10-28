@@ -1,0 +1,185 @@
+body {
+	background-color: #e4ecf1;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+.headerPrincipal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+.headerPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+	content: 'PERFIL'; 
+}
+.btn-iniciar{
+border-radius: 30px;
+}
+.patrocinadores{
+	text-align: center;
+	align-items: center;
+}
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	border-bottom: 1px solid #9799A6;
+}
+.contenidoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+}
+.contenidoPrincipal-cursos{
+	list-style: none;
+    background: url( escudo.png);
+	height: auto;
+	padding: 10px;
+	box-shadow:10px 10px 30px 5px rgb(2, 14, 15);
+    transition: .3s;
+	box-shadow: 3px 2px 2px 3px #CCC;
+	position: relative;
+	text-align: center;
+}
+.pal{
+	box-shadow:3 3 3 3px #ccc;
+	border-radius: 60px;
+}
+.contenidoPrincipal-cursos-link{
+	height:auto;
+	marker-start:inherit;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 6px 2px 2px rgb(121, 116, 116);
+	position: relative;
+	border-radius: 60px;
+	box-sizing:border-box;
+
+}
+.ProjectsRow{
+	width: 94%;
+	margin:auto;
+}
+.seemsProjects {
+	font-size: 20px;
+	margin: auto;
+	}
+.ProjectsP {
+	background-color: #FFF;
+	padding: 80px 0;
+}
+.seemsProjectsBtn {
+	padding: 20px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	text-decoration: none;
+	transition: .5s;
+	border-bottom: 2px solid #9799A6;
+	transition: .3s;
+	box-shadow: 20px 0px 10px 3px rgb(82, 78, 78);
+font-weight: bold;
+}
+.redSocial li{
+	margin: 80px;
+	background: #d7e5ee;
+	padding: 30px 0;
+	display: inline;
+	
+	background-image: linear-gradient(
+		109.6deg,
+		rgb(132, 200, 240) 11.2%,
+		rgb(231, 228, 241) 100.2%
+	  );
+	  box-shadow: 60px 0px 10px 3px rgb(82, 78, 78);
+       border-color: #3a8dc0;
+	  border-radius: 60px;
+	  box-sizing:border-box;
+
+	}
+	  .list-link .container2 {
+	
+		display: inline-block;
+	}	
+	
+	.principal-p{
+		display: inline-block;
+	}
+	
+@media(min-width: 769px) {
+
+
+	
+	.container {
+		width: 85%;	
+	}
+	.headerPrincipal-nav-link {
+		border-radius: 5px;
+		border: 2px solid #9799A6;
+	}
+
+	.headerPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}
+
+	.headerPrincipal-titulo {
+		margin: 0;
+	}
+
+	.headerPrincipal-nav {
+		width: auto;
+	}
+
+	.headerPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+
+
+@media(min-width: 1000px) {
+	.contenidoPrincipal-cursos-link {
+		margin: 1.333%;
+	}
+	.redSocial{
+		margin: 0px;
+		height: 0px;
+		
+		}
+		.container2{
+		margin: 0px;
+		height: 0px;
+	}
+		.principal-p{
+			display: inline;
+		padding: 10px;
+		}
+	.list-link{
+		margin:0px;
+		align-items: inherit;
+		text-align: inherit;
+	display: inline-block;
+	
+ }
+		
+}
+
+}

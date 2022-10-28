@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+main {
+  
+  width: 100vw;
+  height: 200vh;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(62, 161, 219, 1) 11.2%,
+    rgba(93, 52, 236, 1) 100.2%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainCard{
+    width: 550px;
+   border-radius: 25px;
+  background-color: #fff;
+  padding: 40px 40px 40px 40px;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+}
+
+.btnCreate {
+  padding: 20px 15px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(62, 161, 219, 1) 11.2%,
+    rgba(93, 52, 236, 1) 100.2%
+  );
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius:20px 10px;
+}
+.btnCreate:hover {
+  color: rgb(46, 54, 58);
+background-image: linear-gradient(
+  109.6deg,
+  rgb(16, 148, 224) 11.2%,
+  rgb(134, 104, 241) 100.2%
+);
+}
+small{
+  font-size: 10px;
+}
+
+
+@media(max-width: 769px) {
+  main {
+    padding: 20px;
+    width: auto;
+    height:auto;
+  }
+  .mainCard{
+  width: 100vw;
+  height: 160vh;
+  }
+}

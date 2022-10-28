@@ -1,0 +1,106 @@
+.headerPrincipal .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerPrincipal-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenidoPrincipal-cursos{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    align-items: center;
+}
+.contenidoPrincipal-cursos-link{
+		display: flex;
+	        width: 230px; 
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .ProjectsRow{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }   
+             .seemsProjects{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+}
+    .ProjectsP{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+            .seemsProjectsBtn{
+              width:100px;
+            }
+        .redSocial{
+                display: flex;
+            }
+        .container2{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         }
+.principal-p{
+    display: flex;
+    }
+@media(max-width: 769px) {
+    .container{
+        
+        display: flex;
+    	flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+    .subtitulo{
+        margin: 40px;
+    }
+    .headerPrincipal-nav{
+        flex-wrap: wrap;
+        font-weight: bold;
+		margin-bottom: 0px;
+         margin: 60px;
+}
+    .last{
+        text-align: center;  
+        flex-grow: 1;
+}
+.headerPrincipal-nav-link{
+    border-radius: 10px;
+    border: solid;
+    box-shadow:10px 10px 30px 5px rgb(147, 157, 158);
+}
+.redSocial li{
+margin: 5px;
+height: 2%;
+width:auto;
+padding: 30px 0px 30px 0px;
+align-items: center;
+justify-content: space-between;
+border-radius: 40px;
+background:   10px 10px 30px 5px rgb(216, 222, 223);
+}
+.list-link{
+    flex-direction: column;
+    align-items: initial;	
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgba(0, 28, 29, 0.3) ;
+    
+box-shadow:10px 10px 30px 15px rgb(241, 233, 233);
+}
+
+
+}        
+
