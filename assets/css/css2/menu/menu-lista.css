@@ -1,0 +1,6 @@
+.menu__lista{
+    flex-direction: row;
+      }
+      .logo{
+        background: url(..//..//imagenes/logo.svg);
+    }

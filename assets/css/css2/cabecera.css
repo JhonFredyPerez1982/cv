@@ -1,0 +1,21 @@
+:root{
+    --blancoCremaOscuro: #f8f2f2;
+    --blancoCrem:#e4dede;
+      --blancoCrema: #fdfdfd;
+      --blancoSuave: #f9f9f9;
+      --ceniza: #868383;
+      --gris: #e5e5e5;
+      --grisOscuro:#5c5b5b;
+      --grisClaro: #808080;
+      --pacifico:'Pacifico',cursive;
+      --vinotinto:#8d0606;
+      }
+   .cabecera{
+      align-items: center;
+      background:var(--blancoCremaOscuro);
+      
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem 1rem 2rem;
+    }
+    

@@ -17,8 +17,24 @@ body {
 	content: 'PERFIL'; 
 }
 .btn-iniciar{
-border-radius: 30px;
+border-radius: 25px;
 }
+h2{
+	text-align: center;
+}
+.alice3{
+    width: 30vw;
+    }
+
+.alice{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	
+	}
 .patrocinadores{
 	text-align: center;
 	align-items: center;

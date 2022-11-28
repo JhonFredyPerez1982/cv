@@ -1,0 +1,7 @@
+.menu__item{
+  
+    display: flex;
+   font-size: 15px;
+  }.logo{
+    background: url(..//..//imagenes/logo.svg);
+}
